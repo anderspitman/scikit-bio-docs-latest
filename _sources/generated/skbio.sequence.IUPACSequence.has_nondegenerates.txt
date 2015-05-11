@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.has_nondegenerates
+===============================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.has_nondegenerates

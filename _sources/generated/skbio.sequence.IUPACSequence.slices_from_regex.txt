@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.slices_from_regex
+==============================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.slices_from_regex

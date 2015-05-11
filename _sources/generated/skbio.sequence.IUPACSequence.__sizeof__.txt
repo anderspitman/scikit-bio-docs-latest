@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.__sizeof__
+=======================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.__sizeof__

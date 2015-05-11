@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.RNA.slices_from_regex
+====================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: RNA.slices_from_regex

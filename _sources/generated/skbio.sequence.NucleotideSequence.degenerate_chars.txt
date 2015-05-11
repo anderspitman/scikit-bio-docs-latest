@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.NucleotideSequence.degenerate_chars
+==================================================
+
+.. currentmodule:: skbio.sequence
+
+.. autoattribute:: NucleotideSequence.degenerate_chars

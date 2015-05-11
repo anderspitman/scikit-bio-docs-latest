@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Protein._format_list
+===================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Protein._format_list

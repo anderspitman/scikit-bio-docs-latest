@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence._slices_from_iter
+==============================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence._slices_from_iter

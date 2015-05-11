@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.NucleotideSequence.match_frequency
+=================================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: NucleotideSequence.match_frequency

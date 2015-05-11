@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.NucleotideSequence.find_motifs
+=============================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: NucleotideSequence.find_motifs

@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.degenerates
+========================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.degenerates

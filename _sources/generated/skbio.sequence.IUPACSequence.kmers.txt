@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.kmers
+==================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.kmers

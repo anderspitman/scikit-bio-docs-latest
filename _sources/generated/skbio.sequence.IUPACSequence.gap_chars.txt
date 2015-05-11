@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.gap_chars
+======================================
+
+.. currentmodule:: skbio.sequence
+
+.. autoattribute:: IUPACSequence.gap_chars

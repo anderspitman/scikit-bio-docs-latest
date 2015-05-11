@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.default_write_format
+=================================================
+
+.. currentmodule:: skbio.sequence
+
+.. autoattribute:: IUPACSequence.default_write_format

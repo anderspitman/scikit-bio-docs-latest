@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.RNA._slices_from_iter
+====================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: RNA._slices_from_iter

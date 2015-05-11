@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Sequence._constructor
+====================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Sequence._constructor

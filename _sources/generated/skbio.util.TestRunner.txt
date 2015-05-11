@@ -1,0 +1,26 @@
+skbio.util.TestRunner
+=====================
+
+.. currentmodule:: skbio.util
+
+.. autoclass:: TestRunner
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         TestRunner.__format__
+         TestRunner.__init__
+         TestRunner.__new__
+         TestRunner.__reduce__
+         TestRunner.__reduce_ex__
+         TestRunner.__sizeof__
+         TestRunner.__subclasshook__
+         TestRunner.test
+
+
+
+   
+

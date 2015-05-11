@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.equals
+===================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.equals

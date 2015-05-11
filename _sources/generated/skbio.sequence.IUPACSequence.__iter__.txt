@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.__iter__
+=====================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.__iter__

@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.DNA._set_description
+===================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: DNA._set_description

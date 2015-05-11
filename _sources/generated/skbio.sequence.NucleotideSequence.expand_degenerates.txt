@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.NucleotideSequence.expand_degenerates
+====================================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: NucleotideSequence.expand_degenerates

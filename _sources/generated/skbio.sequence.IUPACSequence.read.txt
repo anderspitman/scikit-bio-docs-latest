@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.read
+=================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.read

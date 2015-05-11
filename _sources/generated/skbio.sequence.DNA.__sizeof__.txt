@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.DNA.__sizeof__
+=============================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: DNA.__sizeof__

@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence._convert_to_uppercase
+==================================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence._convert_to_uppercase

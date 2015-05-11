@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Protein.__reduce_ex__
+====================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Protein.__reduce_ex__

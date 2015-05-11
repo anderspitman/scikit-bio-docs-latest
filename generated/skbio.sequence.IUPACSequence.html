@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>skbio.sequence.IUPACSequence &mdash; scikit-bio 0.2.3-dev documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.2.0/united/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.2.3-dev',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="scikit-bio 0.2.3-dev documentation" href="../index.html" />
+    <link rel="up" title="Sequences (skbio.sequence)" href="../sequence.html" />
+    <link rel="next" title="skbio.sequence.IUPACSequence.id" href="skbio.sequence.IUPACSequence.id.html" />
+    <link rel="prev" title="skbio.sequence.Sequence.write" href="skbio.sequence.Sequence.write.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+  
+  <a href="https://github.com/biocore/scikit-bio"
+     class="visible-desktop hidden-xs"><img
+    id="gh-banner"
+    style="position: absolute; top: 50px; right: 0; border: 0;"
+    src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
+    alt="Fork me on GitHub"></a>
+  <script>
+    // Adjust banner height.
+    $(function () {
+      var navHeight = $(".navbar .container").css("height");
+      $("#gh-banner").css("top", navHeight);
+    });
+  </script>
+
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          scikit-bio docs</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.2.3-dev</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../alignment.html">Sequence collections and alignments (<tt class="docutils literal"><span class="pre">skbio.alignment</span></tt>)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../sequence.html">Sequences (<tt class="docutils literal"><span class="pre">skbio.sequence</span></tt>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tree.html">Tree representations (<tt class="docutils literal"><span class="pre">skbio.tree</span></tt>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow.html">Constructing workflows (<tt class="docutils literal"><span class="pre">skbio.workflow</span></tt>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw.html">Visualizations (<tt class="docutils literal"><span class="pre">skbio.draw</span></tt>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diversity.html">Diversity calculations (<tt class="docutils literal"><span class="pre">skbio.diversity</span></tt>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Statistics (<tt class="docutils literal"><span class="pre">skbio.stats</span></tt>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../io.html">File I/O (<tt class="docutils literal"><span class="pre">skbio.io</span></tt>)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../util.html">Utility functionality (<tt class="docutils literal"><span class="pre">skbio.util</span></tt>)</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../development/py3.html">Supporting Python 2 and Python 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../development/coding_guidelines.html">Coding guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../development/new_module.html">Adding a new module to skbio</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">skbio.sequence.IUPACSequence</a><ul>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="skbio-sequence-iupacsequence">
+<h1>skbio.sequence.IUPACSequence<a class="headerlink" href="#skbio-sequence-iupacsequence" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="skbio.sequence.IUPACSequence">
+<em class="property">class </em><tt class="descclassname">skbio.sequence.</tt><tt class="descname">IUPACSequence</tt><big>(</big><em>sequence</em>, <em>id=''</em>, <em>description=''</em>, <em>quality=None</em>, <em>validate=True</em>, <em>case_insensitive=False</em><big>)</big><a class="reference external" href="http://github.com/biocore/scikit-bio/blob/master/skbio/sequence/_iupac_sequence.py#L22"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#skbio.sequence.IUPACSequence" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store biological sequence data conforming to the IUPAC character set.</p>
+<p>This is an abstract base class (ABC) that cannot be instantiated.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><strong>ValueError</strong></p>
+<blockquote class="last">
+<div><p>If sequence characters are not in the IUPAC character set <a class="reference internal" href="#r174" id="id1">[R174]</a>.</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="skbio.sequence.NucleotideSequence.html#skbio.sequence.NucleotideSequence" title="skbio.sequence.NucleotideSequence"><tt class="xref py py-obj docutils literal"><span class="pre">NucleotideSequence</span></tt></a>, <a class="reference internal" href="skbio.sequence.DNA.html#skbio.sequence.DNA" title="skbio.sequence.DNA"><tt class="xref py py-obj docutils literal"><span class="pre">DNA</span></tt></a>, <a class="reference internal" href="skbio.sequence.RNA.html#skbio.sequence.RNA" title="skbio.sequence.RNA"><tt class="xref py py-obj docutils literal"><span class="pre">RNA</span></tt></a>, <a class="reference internal" href="skbio.sequence.Protein.html#skbio.sequence.Protein" title="skbio.sequence.Protein"><tt class="xref py py-obj docutils literal"><span class="pre">Protein</span></tt></a></p>
+</div>
+<p class="rubric">References</p>
+<table class="docutils citation" frame="void" id="r174" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[R174]</td><td><em>(<a class="fn-backref" href="#id1">1</a>, <a class="fn-backref" href="#id2">2</a>)</em> Nomenclature for incompletely specified bases in nucleic acid
+sequences: recommendations 1984.
+Nucleic Acids Res. May 10, 1985; 13(9): 3021-3030.
+A Cornish-Bowden</td></tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.id.html#skbio.sequence.IUPACSequence.id" title="skbio.sequence.IUPACSequence.id"><tt class="xref py py-obj docutils literal"><span class="pre">id</span></tt></a></td>
+<td>Biological sequence identifier.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.description.html#skbio.sequence.IUPACSequence.description" title="skbio.sequence.IUPACSequence.description"><tt class="xref py py-obj docutils literal"><span class="pre">description</span></tt></a></td>
+<td>Biological sequence description.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.sequence.html#skbio.sequence.IUPACSequence.sequence" title="skbio.sequence.IUPACSequence.sequence"><tt class="xref py py-obj docutils literal"><span class="pre">sequence</span></tt></a></td>
+<td>Array containing underlying biological sequence characters.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.quality.html#skbio.sequence.IUPACSequence.quality" title="skbio.sequence.IUPACSequence.quality"><tt class="xref py py-obj docutils literal"><span class="pre">quality</span></tt></a></td>
+<td>Quality scores corresponding to biological sequence characters.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.alphabet.html#skbio.sequence.IUPACSequence.alphabet" title="skbio.sequence.IUPACSequence.alphabet"><tt class="xref py py-obj docutils literal"><span class="pre">alphabet</span></tt></a></td>
+<td>Return valid IUPAC characters.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.gap_chars.html#skbio.sequence.IUPACSequence.gap_chars" title="skbio.sequence.IUPACSequence.gap_chars"><tt class="xref py py-obj docutils literal"><span class="pre">gap_chars</span></tt></a></td>
+<td>Return characters defined as gaps.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.nondegenerate_chars.html#skbio.sequence.IUPACSequence.nondegenerate_chars" title="skbio.sequence.IUPACSequence.nondegenerate_chars"><tt class="xref py py-obj docutils literal"><span class="pre">nondegenerate_chars</span></tt></a></td>
+<td>Return non-degenerate IUPAC characters.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.degenerate_chars.html#skbio.sequence.IUPACSequence.degenerate_chars" title="skbio.sequence.IUPACSequence.degenerate_chars"><tt class="xref py py-obj docutils literal"><span class="pre">degenerate_chars</span></tt></a></td>
+<td>Return degenerate IUPAC characters.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.degenerate_map.html#skbio.sequence.IUPACSequence.degenerate_map" title="skbio.sequence.IUPACSequence.degenerate_map"><tt class="xref py py-obj docutils literal"><span class="pre">degenerate_map</span></tt></a></td>
+<td>Return mapping of degenerate to non-degenerate characters.</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.count.html#skbio.sequence.IUPACSequence.count" title="skbio.sequence.IUPACSequence.count"><tt class="xref py py-obj docutils literal"><span class="pre">count</span></tt></a>(subsequence[,&nbsp;start,&nbsp;end])</td>
+<td>Count occurrences of a subsequence in the biological sequence.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.degap.html#skbio.sequence.IUPACSequence.degap" title="skbio.sequence.IUPACSequence.degap"><tt class="xref py py-obj docutils literal"><span class="pre">degap</span></tt></a>()</td>
+<td>Return a new sequence with gap characters removed.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.degenerates.html#skbio.sequence.IUPACSequence.degenerates" title="skbio.sequence.IUPACSequence.degenerates"><tt class="xref py py-obj docutils literal"><span class="pre">degenerates</span></tt></a>()</td>
+<td>Find positions containing degenerate characters in the sequence.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.distance.html#skbio.sequence.IUPACSequence.distance" title="skbio.sequence.IUPACSequence.distance"><tt class="xref py py-obj docutils literal"><span class="pre">distance</span></tt></a>(other[,&nbsp;metric])</td>
+<td>Compute the distance to another sequence.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.equals.html#skbio.sequence.IUPACSequence.equals" title="skbio.sequence.IUPACSequence.equals"><tt class="xref py py-obj docutils literal"><span class="pre">equals</span></tt></a>(other[,&nbsp;ignore])</td>
+<td>Determine if the biological sequence is equal to another.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.expand_degenerates.html#skbio.sequence.IUPACSequence.expand_degenerates" title="skbio.sequence.IUPACSequence.expand_degenerates"><tt class="xref py py-obj docutils literal"><span class="pre">expand_degenerates</span></tt></a>()</td>
+<td>Yield all possible non-degenerate versions of the sequence.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.find_motifs.html#skbio.sequence.IUPACSequence.find_motifs" title="skbio.sequence.IUPACSequence.find_motifs"><tt class="xref py py-obj docutils literal"><span class="pre">find_motifs</span></tt></a>(motif_type[,&nbsp;min_length,&nbsp;ignore])</td>
+<td>Search the biological sequence for motifs.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.gaps.html#skbio.sequence.IUPACSequence.gaps" title="skbio.sequence.IUPACSequence.gaps"><tt class="xref py py-obj docutils literal"><span class="pre">gaps</span></tt></a>()</td>
+<td>Find positions containing gaps in the biological sequence.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.has_degenerates.html#skbio.sequence.IUPACSequence.has_degenerates" title="skbio.sequence.IUPACSequence.has_degenerates"><tt class="xref py py-obj docutils literal"><span class="pre">has_degenerates</span></tt></a>()</td>
+<td>Determine if sequence contains one or more degenerate characters.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.has_gaps.html#skbio.sequence.IUPACSequence.has_gaps" title="skbio.sequence.IUPACSequence.has_gaps"><tt class="xref py py-obj docutils literal"><span class="pre">has_gaps</span></tt></a>()</td>
+<td>Determine if the sequence contains one or more gap characters.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.has_nondegenerates.html#skbio.sequence.IUPACSequence.has_nondegenerates" title="skbio.sequence.IUPACSequence.has_nondegenerates"><tt class="xref py py-obj docutils literal"><span class="pre">has_nondegenerates</span></tt></a>()</td>
+<td>Determine if sequence contains one or more non-degenerate characters</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.index.html#skbio.sequence.IUPACSequence.index" title="skbio.sequence.IUPACSequence.index"><tt class="xref py py-obj docutils literal"><span class="pre">index</span></tt></a>(subsequence[,&nbsp;start,&nbsp;end])</td>
+<td>Find position where subsequence first occurs in the sequence.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.kmer_frequencies.html#skbio.sequence.IUPACSequence.kmer_frequencies" title="skbio.sequence.IUPACSequence.kmer_frequencies"><tt class="xref py py-obj docutils literal"><span class="pre">kmer_frequencies</span></tt></a>(k[,&nbsp;overlap,&nbsp;relative])</td>
+<td>Return counts of words of length <cite>k</cite> from the biological sequence.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.kmers.html#skbio.sequence.IUPACSequence.kmers" title="skbio.sequence.IUPACSequence.kmers"><tt class="xref py py-obj docutils literal"><span class="pre">kmers</span></tt></a>(k[,&nbsp;overlap])</td>
+<td>Generate words of length <cite>k</cite> from the biological sequence.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.match_frequency.html#skbio.sequence.IUPACSequence.match_frequency" title="skbio.sequence.IUPACSequence.match_frequency"><tt class="xref py py-obj docutils literal"><span class="pre">match_frequency</span></tt></a>(other[,&nbsp;relative])</td>
+<td>Return count of positions that are the same between two sequences.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.matches.html#skbio.sequence.IUPACSequence.matches" title="skbio.sequence.IUPACSequence.matches"><tt class="xref py py-obj docutils literal"><span class="pre">matches</span></tt></a>(other)</td>
+<td>Find positions that match with another sequence.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.mismatch_frequency.html#skbio.sequence.IUPACSequence.mismatch_frequency" title="skbio.sequence.IUPACSequence.mismatch_frequency"><tt class="xref py py-obj docutils literal"><span class="pre">mismatch_frequency</span></tt></a>(other[,&nbsp;relative])</td>
+<td>Return count of positions that differ between two sequences.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.mismatches.html#skbio.sequence.IUPACSequence.mismatches" title="skbio.sequence.IUPACSequence.mismatches"><tt class="xref py py-obj docutils literal"><span class="pre">mismatches</span></tt></a>(other)</td>
+<td>Find positions that do not match with another sequence.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.nondegenerates.html#skbio.sequence.IUPACSequence.nondegenerates" title="skbio.sequence.IUPACSequence.nondegenerates"><tt class="xref py py-obj docutils literal"><span class="pre">nondegenerates</span></tt></a>()</td>
+<td>Find positions containing non-degenerate characters in the sequence.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.read.html#skbio.sequence.IUPACSequence.read" title="skbio.sequence.IUPACSequence.read"><tt class="xref py py-obj docutils literal"><span class="pre">read</span></tt></a>(fp[,&nbsp;format])</td>
+<td>Create a new <tt class="docutils literal"><span class="pre">Sequence</span></tt> instance from a file.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.slices_from_regex.html#skbio.sequence.IUPACSequence.slices_from_regex" title="skbio.sequence.IUPACSequence.slices_from_regex"><tt class="xref py py-obj docutils literal"><span class="pre">slices_from_regex</span></tt></a>(regex[,&nbsp;ignore])</td>
+<td>Generate slices for patterns matched by a regular expression.</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="skbio.sequence.IUPACSequence.write.html#skbio.sequence.IUPACSequence.write" title="skbio.sequence.IUPACSequence.write"><tt class="xref py py-obj docutils literal"><span class="pre">write</span></tt></a>(fp[,&nbsp;format])</td>
+<td>Write an instance of <tt class="docutils literal"><span class="pre">Sequence</span></tt> to a file.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014--, scikit-bio development team.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.2.<br/>
+    </p>
+  </div>
+</footer>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-6636235-9', 'scikit-bio.org');
+    ga('send', 'pageview');
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.match_frequency
+============================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.match_frequency

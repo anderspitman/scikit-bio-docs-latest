@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.NucleotideSequence.degenerate_map
+================================================
+
+.. currentmodule:: skbio.sequence
+
+.. autoattribute:: NucleotideSequence.degenerate_map

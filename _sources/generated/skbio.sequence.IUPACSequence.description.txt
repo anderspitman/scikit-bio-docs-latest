@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.description
+========================================
+
+.. currentmodule:: skbio.sequence
+
+.. autoattribute:: IUPACSequence.description

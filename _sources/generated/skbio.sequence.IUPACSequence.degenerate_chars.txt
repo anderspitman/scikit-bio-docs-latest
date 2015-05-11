@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.degenerate_chars
+=============================================
+
+.. currentmodule:: skbio.sequence
+
+.. autoattribute:: IUPACSequence.degenerate_chars

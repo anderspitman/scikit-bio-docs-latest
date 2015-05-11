@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Sequence._byte_ownership
+=======================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Sequence._byte_ownership

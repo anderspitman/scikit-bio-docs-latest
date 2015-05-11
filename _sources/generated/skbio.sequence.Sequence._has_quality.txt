@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Sequence._has_quality
+====================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Sequence._has_quality

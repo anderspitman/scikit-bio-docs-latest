@@ -1,0 +1,89 @@
+skbio.sequence.DNA
+==================
+
+.. currentmodule:: skbio.sequence
+
+.. autoclass:: DNA
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         DNA.__contains__
+         DNA.__eq__
+         DNA.__format__
+         DNA.__getitem__
+         DNA.__init__
+         DNA.__iter__
+         DNA.__len__
+         DNA.__ne__
+         DNA.__new__
+         DNA.__reduce__
+         DNA.__reduce_ex__
+         DNA.__repr__
+         DNA.__reversed__
+         DNA.__sizeof__
+         DNA.__str__
+         DNA.__subclasshook__
+         DNA._byte_ownership
+         DNA._constructor
+         DNA._convert_to_uppercase
+         DNA._format_list
+         DNA._format_str
+         DNA._has_quality
+         DNA._munge_to_sequence
+         DNA._set_description
+         DNA._set_id
+         DNA._set_quality
+         DNA._set_sequence
+         DNA._slices_from_iter
+         DNA._to
+         DNA._validate
+         DNA.complement
+         DNA.count
+         DNA.degap
+         DNA.degenerates
+         DNA.distance
+         DNA.equals
+         DNA.expand_degenerates
+         DNA.find_motifs
+         DNA.gaps
+         DNA.has_degenerates
+         DNA.has_gaps
+         DNA.has_nondegenerates
+         DNA.index
+         DNA.is_reverse_complement
+         DNA.kmer_frequencies
+         DNA.kmers
+         DNA.match_frequency
+         DNA.matches
+         DNA.mismatch_frequency
+         DNA.mismatches
+         DNA.nondegenerates
+         DNA.read
+         DNA.reverse_complement
+         DNA.slices_from_regex
+         DNA.write
+
+
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         DNA.alphabet
+         DNA.complement_map
+         DNA.default_write_format
+         DNA.degenerate_chars
+         DNA.degenerate_map
+         DNA.description
+         DNA.gap_chars
+         DNA.id
+         DNA.nondegenerate_chars
+         DNA.quality
+         DNA.sequence
+

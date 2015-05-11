@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.__repr__
+=====================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.__repr__

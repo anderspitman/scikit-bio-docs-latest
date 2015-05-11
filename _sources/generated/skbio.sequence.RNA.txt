@@ -1,0 +1,89 @@
+skbio.sequence.RNA
+==================
+
+.. currentmodule:: skbio.sequence
+
+.. autoclass:: RNA
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         RNA.__contains__
+         RNA.__eq__
+         RNA.__format__
+         RNA.__getitem__
+         RNA.__init__
+         RNA.__iter__
+         RNA.__len__
+         RNA.__ne__
+         RNA.__new__
+         RNA.__reduce__
+         RNA.__reduce_ex__
+         RNA.__repr__
+         RNA.__reversed__
+         RNA.__sizeof__
+         RNA.__str__
+         RNA.__subclasshook__
+         RNA._byte_ownership
+         RNA._constructor
+         RNA._convert_to_uppercase
+         RNA._format_list
+         RNA._format_str
+         RNA._has_quality
+         RNA._munge_to_sequence
+         RNA._set_description
+         RNA._set_id
+         RNA._set_quality
+         RNA._set_sequence
+         RNA._slices_from_iter
+         RNA._to
+         RNA._validate
+         RNA.complement
+         RNA.count
+         RNA.degap
+         RNA.degenerates
+         RNA.distance
+         RNA.equals
+         RNA.expand_degenerates
+         RNA.find_motifs
+         RNA.gaps
+         RNA.has_degenerates
+         RNA.has_gaps
+         RNA.has_nondegenerates
+         RNA.index
+         RNA.is_reverse_complement
+         RNA.kmer_frequencies
+         RNA.kmers
+         RNA.match_frequency
+         RNA.matches
+         RNA.mismatch_frequency
+         RNA.mismatches
+         RNA.nondegenerates
+         RNA.read
+         RNA.reverse_complement
+         RNA.slices_from_regex
+         RNA.write
+
+
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         RNA.alphabet
+         RNA.complement_map
+         RNA.default_write_format
+         RNA.degenerate_chars
+         RNA.degenerate_map
+         RNA.description
+         RNA.gap_chars
+         RNA.id
+         RNA.nondegenerate_chars
+         RNA.quality
+         RNA.sequence
+

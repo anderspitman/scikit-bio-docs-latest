@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Protein._convert_to_uppercase
+============================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Protein._convert_to_uppercase

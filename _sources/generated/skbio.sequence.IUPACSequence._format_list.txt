@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence._format_list
+=========================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence._format_list

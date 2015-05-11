@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Protein.slices_from_regex
+========================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Protein.slices_from_regex

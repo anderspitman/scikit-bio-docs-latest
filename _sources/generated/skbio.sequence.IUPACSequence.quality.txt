@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.quality
+====================================
+
+.. currentmodule:: skbio.sequence
+
+.. autoattribute:: IUPACSequence.quality

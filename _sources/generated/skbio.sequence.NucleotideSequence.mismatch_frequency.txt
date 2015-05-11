@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.NucleotideSequence.mismatch_frequency
+====================================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: NucleotideSequence.mismatch_frequency

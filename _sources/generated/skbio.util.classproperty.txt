@@ -1,0 +1,38 @@
+skbio.util.classproperty
+========================
+
+.. currentmodule:: skbio.util
+
+.. autoclass:: classproperty
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         classproperty.__format__
+         classproperty.__get__
+         classproperty.__init__
+         classproperty.__new__
+         classproperty.__reduce__
+         classproperty.__reduce_ex__
+         classproperty.__set__
+         classproperty.__sizeof__
+         classproperty.__subclasshook__
+         classproperty.deleter
+         classproperty.getter
+         classproperty.setter
+
+
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         classproperty.fdel
+         classproperty.fget
+         classproperty.fset
+

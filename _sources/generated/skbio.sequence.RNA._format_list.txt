@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.RNA._format_list
+===============================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: RNA._format_list

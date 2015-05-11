@@ -1,0 +1,85 @@
+skbio.sequence.Protein
+======================
+
+.. currentmodule:: skbio.sequence
+
+.. autoclass:: Protein
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         Protein.__contains__
+         Protein.__eq__
+         Protein.__format__
+         Protein.__getitem__
+         Protein.__init__
+         Protein.__iter__
+         Protein.__len__
+         Protein.__ne__
+         Protein.__new__
+         Protein.__reduce__
+         Protein.__reduce_ex__
+         Protein.__repr__
+         Protein.__reversed__
+         Protein.__sizeof__
+         Protein.__str__
+         Protein.__subclasshook__
+         Protein._byte_ownership
+         Protein._constructor
+         Protein._convert_to_uppercase
+         Protein._format_list
+         Protein._format_str
+         Protein._has_quality
+         Protein._munge_to_sequence
+         Protein._set_description
+         Protein._set_id
+         Protein._set_quality
+         Protein._set_sequence
+         Protein._slices_from_iter
+         Protein._to
+         Protein._validate
+         Protein.count
+         Protein.degap
+         Protein.degenerates
+         Protein.distance
+         Protein.equals
+         Protein.expand_degenerates
+         Protein.find_motifs
+         Protein.gaps
+         Protein.has_degenerates
+         Protein.has_gaps
+         Protein.has_nondegenerates
+         Protein.index
+         Protein.kmer_frequencies
+         Protein.kmers
+         Protein.match_frequency
+         Protein.matches
+         Protein.mismatch_frequency
+         Protein.mismatches
+         Protein.nondegenerates
+         Protein.read
+         Protein.slices_from_regex
+         Protein.write
+
+
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         Protein.alphabet
+         Protein.default_write_format
+         Protein.degenerate_chars
+         Protein.degenerate_map
+         Protein.description
+         Protein.gap_chars
+         Protein.id
+         Protein.nondegenerate_chars
+         Protein.quality
+         Protein.sequence
+

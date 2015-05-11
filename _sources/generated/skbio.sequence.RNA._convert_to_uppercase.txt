@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.RNA._convert_to_uppercase
+========================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: RNA._convert_to_uppercase

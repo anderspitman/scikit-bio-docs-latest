@@ -1,0 +1,85 @@
+skbio.sequence.IUPACSequence
+============================
+
+.. currentmodule:: skbio.sequence
+
+.. autoclass:: IUPACSequence
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         IUPACSequence.__contains__
+         IUPACSequence.__eq__
+         IUPACSequence.__format__
+         IUPACSequence.__getitem__
+         IUPACSequence.__init__
+         IUPACSequence.__iter__
+         IUPACSequence.__len__
+         IUPACSequence.__ne__
+         IUPACSequence.__new__
+         IUPACSequence.__reduce__
+         IUPACSequence.__reduce_ex__
+         IUPACSequence.__repr__
+         IUPACSequence.__reversed__
+         IUPACSequence.__sizeof__
+         IUPACSequence.__str__
+         IUPACSequence.__subclasshook__
+         IUPACSequence._byte_ownership
+         IUPACSequence._constructor
+         IUPACSequence._convert_to_uppercase
+         IUPACSequence._format_list
+         IUPACSequence._format_str
+         IUPACSequence._has_quality
+         IUPACSequence._munge_to_sequence
+         IUPACSequence._set_description
+         IUPACSequence._set_id
+         IUPACSequence._set_quality
+         IUPACSequence._set_sequence
+         IUPACSequence._slices_from_iter
+         IUPACSequence._to
+         IUPACSequence._validate
+         IUPACSequence.count
+         IUPACSequence.degap
+         IUPACSequence.degenerates
+         IUPACSequence.distance
+         IUPACSequence.equals
+         IUPACSequence.expand_degenerates
+         IUPACSequence.find_motifs
+         IUPACSequence.gaps
+         IUPACSequence.has_degenerates
+         IUPACSequence.has_gaps
+         IUPACSequence.has_nondegenerates
+         IUPACSequence.index
+         IUPACSequence.kmer_frequencies
+         IUPACSequence.kmers
+         IUPACSequence.match_frequency
+         IUPACSequence.matches
+         IUPACSequence.mismatch_frequency
+         IUPACSequence.mismatches
+         IUPACSequence.nondegenerates
+         IUPACSequence.read
+         IUPACSequence.slices_from_regex
+         IUPACSequence.write
+
+
+
+   
+
+   .. HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+      .. autosummary::
+         :toctree:
+      
+         IUPACSequence.alphabet
+         IUPACSequence.default_write_format
+         IUPACSequence.degenerate_chars
+         IUPACSequence.degenerate_map
+         IUPACSequence.description
+         IUPACSequence.gap_chars
+         IUPACSequence.id
+         IUPACSequence.nondegenerate_chars
+         IUPACSequence.quality
+         IUPACSequence.sequence
+

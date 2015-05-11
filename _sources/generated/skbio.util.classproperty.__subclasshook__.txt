@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.util.classproperty.__subclasshook__
+=========================================
+
+.. currentmodule:: skbio.util
+
+.. automethod:: classproperty.__subclasshook__

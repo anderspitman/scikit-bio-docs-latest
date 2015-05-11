@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Sequence.__subclasshook__
+========================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Sequence.__subclasshook__

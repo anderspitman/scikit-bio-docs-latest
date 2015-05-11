@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.RNA.description
+==============================
+
+.. currentmodule:: skbio.sequence
+
+.. autoattribute:: RNA.description

@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.IUPACSequence.__reversed__
+=========================================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: IUPACSequence.__reversed__

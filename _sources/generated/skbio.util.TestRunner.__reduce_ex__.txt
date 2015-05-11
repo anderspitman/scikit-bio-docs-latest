@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.util.TestRunner.__reduce_ex__
+===================================
+
+.. currentmodule:: skbio.util
+
+.. automethod:: TestRunner.__reduce_ex__

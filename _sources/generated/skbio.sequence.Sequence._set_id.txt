@@ -1,0 +1,8 @@
+:orphan:
+
+skbio.sequence.Sequence._set_id
+===============================
+
+.. currentmodule:: skbio.sequence
+
+.. automethod:: Sequence._set_id
